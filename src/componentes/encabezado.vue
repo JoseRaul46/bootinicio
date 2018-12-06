@@ -11,17 +11,31 @@
                     <router-link class="nav-link" to="/">Home</router-link>
                     <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
                 </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/columnas">Columnas</router-link>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Columnas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <router-link class="dropdown-item" to="/columnas">Columnas</router-link>
+                        <router-link class="dropdown-item" to="/columnasAlignVer">Columnas Alineadas Vertical</router-link>
+                        <router-link class="dropdown-item" to="/columnasAlignHor">Columnas Alineadas Horizontal</router-link>  
+                        <router-link class="dropdown-item" to="/offseting">Offseting</router-link>
+                        <router-link class="dropdown-item" to="/reordenamiento">Reordenamiento</router-link>
+                        <router-link class="dropdown-item" to="/anidadas">Columnas Anidadas</router-link>
+                        <router-link class="dropdown-item" to="/final">Prueba final</router-link>
+
+                    </div>
+
                 </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/columnasAlignVer">Columnas Alineadas Vertical</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/columnasAlignHor">Columnas Alineadas Horizontal</router-link>                
-                </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/offseting">Offseting</router-link>                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Elementos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <router-link class="dropdown-item" to="/responsiveUtil">Responsive</router-link>
+                        <router-link class="dropdown-item" to="/tipografia">Tipografia</router-link>
+                        <router-link class="dropdown-item" to="/bloquesCodigo">BloquesCodigo</router-link>
+                    </div>
                 </li>
                 </ul>
             </div>

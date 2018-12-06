@@ -1,0 +1,30 @@
+.principal{
+    background-color: pink;
+}
+.header{
+    background-color: yellow;
+    height:100px;
+    margin-bottom: 20px ;
+}
+.main{
+    background-color: blue;
+    height:300px;
+    margin-bottom: 20px ;
+}
+.side{
+    background-color: green;
+    padding: 40px 0px;
+    margin-bottom: 20px ;
+}
+.tres > div{
+    background-color: purple;
+    text-align: center;
+    height:200px;
+    margin-bottom: 20px ;
+}
+.footer {
+    background-color: black;
+    height:150px;
+    color:white;
+}
+
